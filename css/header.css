@@ -1,0 +1,140 @@
+ul#dc_mega-menu-orange {
+    display: inline-block;
+    width: auto;
+}
+
+.menu {
+    background-image: linear-gradient(140deg, rgb(145 138 137 / 40%) 0%, rgb(108 108 200 / 64%) 50%, rgba(0, 0, 0, 0.81) 75%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* position: absolute; */
+    /* z-index: 100; */
+    /* width: 76%; */
+    width: 100%;
+}
+
+.header_top_right {}
+
+.header_in_menu {
+    /* display: inline-block; */
+    /* display: list-item; */
+    margin-left: auto;
+}
+
+div#slide_img {
+    width: 100%;
+    padding-top: 0;
+    display: none;
+}
+
+.header_top {
+    display: none;
+}
+
+div#logo-in-menu {
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+.full-slide {
+    width: 100%;
+}
+
+.full-slide img {width: 100%;}
+
+.logo {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 76px;
+    float: left;
+    width: 109px;
+    background-image: url(../images/test2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+ul.dc_mm-orange li a {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 15px;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+    font-family: 'Doppio One', sans-serif;
+    /* border-left: 2px groove; */
+}
+
+.shopping_cart {
+    margin-left: 15px;
+}
+.search_box {
+    width: auto;
+    min-width: 190px;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: rgb(255, 255, 255);
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        width: 86%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu {
+        width: 86%;
+        padding: 0 2%;
+    }
+}
+
+/*Caption Text*/
+.flex-caption {
+    bottom:50px;
+    color: white;
+    font-size: 40px;
+    line-height: 20px;
+    /* left:0; */
+    padding:0 20px;
+    position:absolute;
+    /* right:0; */
+    text-transform: uppercase;
+    z-index:1;
+}
+
+.account_title {
+    float: left;
+    width: 90px;
+    margin-left: -59px;
+    margin-top: 55px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.shopping_cart {
+    margin-left: 5px;
+}
+
+.header_bottom_left {
+    /* display: flex; */
+    float: left;
+    width: 106%;
+    padding-top: 25px;
+}
+
